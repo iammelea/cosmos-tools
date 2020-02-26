@@ -6,7 +6,7 @@ What? 1 status node, 2 check if node is not runing then start in case need, 3 se
 
 $ sudo apt update && sudo apt upgrade -y
 
-$ sudo apt install curl expect -y
+$ sudo apt install screen curl expect -y
 
 $ git clone https://github.com/iammelea/cosmos-tools.git
 

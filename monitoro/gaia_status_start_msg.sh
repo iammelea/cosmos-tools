@@ -1,4 +1,4 @@
-# bash script telegram bot 1,2,3 = status - if null start- then sync status msg. by melea
+# bash script telegram bot 1,2,3 = Cosmos SDK nodes→ status - if null→ start- then sync status msg. by melea
 while [ "true" ]
     do
         token="<YOUR_TELEGRAM_TOKEN>"

@@ -13,33 +13,42 @@ $ git clone https://github.com/iammelea/cosmos-tools.git
 
 $ cd cosmos-tools/monitoro
 
-$ chmod +x regen_status_start_msg.sh
+#chose the name of the chain and give permissions to run.
+#https://github.com/iammelea/cosmos-tools/tree/master/monitoro
+
+$ chmod +x 13007_monit.sh
 
 Or
 
-$ chmod +x gaia_status_start_msg.sh
+$ chmod +x iris_monit.sh
 
 
-$ vi regen_status_start_msg.sh
+#open and add your telegram data
 
-#Or
+$ vi xrn_monit.sh
 
-$ vi gaia_status_start_msg.sh
+#Or example
+
+$ vi iris_monit.sh
 
 #Edit
 
 #token="<YOUR_TELEGRAM_TOKEN>"
 #chat_id="<YOUR_CHAT_ID>"
 
+#Tip: can edit the node name where Regen / Iris / 13007 / and more
+
 https://github.com/iammelea/cosmos-tools/blob/master/monitoro/Telegram_bot_token_chatID
 
 $ Screen -S monitoro
 
-$ ./regen_status_start_msg.sh
+$ ./iris_monit.sh
 
-#Or for Cosmos hub 3
+#Or for cosmos testnet, remember chose the same you add your telegram data
 
-$ ./gaia_status_start_msg.sh
+$ ./13007-monit.sh
 
 #setup with systemd for keep running after system restart and tuning under your convenience.
+
+#Cheers
 

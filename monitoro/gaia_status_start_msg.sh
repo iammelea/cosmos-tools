@@ -13,7 +13,7 @@ while [ "true" ]
             crash_msg="Ups! node is gone, let's start this boy. . . 🚀"
             echo $crash_msg
             curl -s "${tg_api}" --data-urlencode "text=${crash_msg}"
-            echo -e gaiad start &
+            echo -e screen -S cosmos3 && gaiad start &
             sleep 1800
         else
             status_msg="Cosmos sync= ${status}!"

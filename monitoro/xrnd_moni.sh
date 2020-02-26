@@ -1,8 +1,8 @@
 # bash script telegram bot 1,2,3 = status - if null start- then sync status msg  
 while [ "true" ]
     do
-        token="588327724:AAHVA3s2BscgMXXJ96R6BtpwU2Hh8b_p8SY"
-        chat_id="364639716"
+        token=""
+        chat_id=""
         tg_api="https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}"
 
 

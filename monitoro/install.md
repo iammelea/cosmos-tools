@@ -1,5 +1,6 @@
 
-#bash script where telegram bot send status of the sync for the Cosmos nodes.
+#Symple but practical bash script where telegram bot send msg with: sync status and peers of the sync for the Cosmos nodes you need.
+#if not running, start the node and send msg about that action too. Edit times under convenience. 300 is =5 minutes.
 
 #What do? 1 status node, 2 check if node is not runing then start in case need, 3 send telegram msg.
 

@@ -1,2 +1,3 @@
-# cosmos-tools
-Tools for Cosmos SDK 
+# Cosmos-tools by melea
+
+Tools for nodes based on Cosmos SDK.

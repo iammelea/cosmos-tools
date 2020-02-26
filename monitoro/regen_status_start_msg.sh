@@ -19,7 +19,7 @@ while [ "true" ]
             status_msg="REGEN sync: ${status}!"
             echo "${status_msg}"
             # Telegram notification
-            # If no need to notificate just comment line bellow
+            # If no want msg uncoment next line.
             curl -s "${tg_api}" --data-urlencode "text=${status_msg}"
         fi
         sleep 900

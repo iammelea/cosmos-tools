@@ -41,7 +41,7 @@ $ vi iris_monit.sh
 
 https://github.com/iammelea/cosmos-tools/blob/master/monitoro/Telegram_bot_token_chatID
 
-$ Screen -S monitoro
+$ screen -S monitoro
 
 $ ./iris_monit.sh
 

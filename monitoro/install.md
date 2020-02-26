@@ -3,7 +3,7 @@ bash script where telegram bot send status of the sync for the Cosmos nodes.
 
 What do? 1 status node, 2 check if node is not runing then start in case need, 3 send telegram msg.
 
-# Steps install
+# Install
 
 $ sudo apt update && sudo apt upgrade -y
 

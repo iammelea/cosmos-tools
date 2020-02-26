@@ -28,3 +28,4 @@ $ Screen -S regen.monitor
 $ ./regen_status_start_msg.sh
 
 setup with systemd for keep running after system restart and tuning under your convenience.
+

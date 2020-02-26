@@ -19,7 +19,7 @@ while [ "true" ]
             status_msg="Cosmos sync= ${status}!"
             echo "${status_msg}"
             # Telegram msg
-            # If no wnat msg uncoment next line.
+            # If no want msg uncoment next line.
             curl -s "${tg_api}" --data-urlencode "text=${status_msg}"
         fi
         sleep 30

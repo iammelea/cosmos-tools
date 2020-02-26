@@ -16,7 +16,7 @@ catching_up="true|false"
             echo -e screen -S gaiad && gaiad start &
             sleep 1800
         else
-            status_msg="13007 V: 💻⛏⛏${peers} ⚛️  ${status} ⚙️"
+            status_msg="13007 V: 💻⛏${peers} ⚛️  ${status} ⚙️"
             echo "${status_msg}"
             # Telegram notification
             # If no need to notificate just comment line bellow

@@ -7,7 +7,7 @@ while [ "true" ]
 
  
         sync_status="true|false"
-        status=`gaiacli status | grep -E ${"catching_up}`
+        status=`gaiacli status | grep -E ${catching_up}`
         if ! pgrep -x "gaiad" > /dev/null
         then
             crash_msg="No response from the node Bro, let's restart this boy. . . 🚀"

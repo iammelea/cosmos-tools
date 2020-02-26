@@ -14,7 +14,7 @@ while [ "true" ]
             echo $crash_msg
             curl -s "${tg_api}" --data-urlencode "text=${crash_msg}"
             echo -e gaiad start &
-            sleep 180
+            sleep 1800
         else
             status_msg="Cosmos sync= ${status}!"
             echo "${status_msg}"
@@ -22,7 +22,7 @@ while [ "true" ]
             # If no want msg uncoment next line.
             curl -s "${tg_api}" --data-urlencode "text=${status_msg}"
         fi
-        sleep 30
+        sleep 900
             
 done
 

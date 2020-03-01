@@ -5,7 +5,7 @@ while [ "true" ]
         chat_id="<YOUR_CHAT_ID>"
         tg_api="https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}"
 
-catching_up="true|false"
+        catching_up="true|false"
         status=`curl localhost:26657/status | grep -E ${catching_up}`
         peers=`curl localhost:26657/net_info | grep -E n_peers`
         if ! pgrep -x "gaiad" > /dev/null

@@ -33,6 +33,6 @@ Guides:
 
 # cheers
 
-**If you like to support our Cosmos Validator**
+**If you like to support our Cosmos Validator** →
 [melea Genesis Cosmos Validator](https://meleatrust.com/cosmos-melea-trust-validator/)
 Thank for the support!

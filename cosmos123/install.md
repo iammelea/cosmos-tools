@@ -32,3 +32,6 @@ Guides:
 [Cosmos Guide](https://medium.com/@meleacrypto/atom-cosmos-hub-3-tutorial-be-your-own-crypto-bank-838b37fe1c86)
 
 # cheers
+
+**If you like to support our cosmos node**
+[melea Genesis Cosmos Validator](https://meleatrust.com/cosmos-melea-trust-validator/)

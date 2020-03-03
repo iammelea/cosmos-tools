@@ -2,7 +2,7 @@
 
 #Firewal need open 26656 for p2p before run
 
-1.-- $ wget https://raw.githubusercontent.com/iammelea/cosmos-tools/master/cosmos123/cosmos123.sh
+1.-- $ wget https://raw.githubusercontent.com/iammelea/cosmos-tools/master/cosmos12/cosmos12.sh
 
 2.-- $ chmod +x ./cosmos123.sh
 

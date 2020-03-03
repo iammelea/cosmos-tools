@@ -15,11 +15,11 @@ cd gaia
 git checkout v2.0.3
 make install
 gaiad init Node-Name-here --chain-id cosmoshub-3
-sleep 1
+sleep 3
 gaiad version --long
-sleep 1
+sleep 3
 sudo chmod -R 777 .gaiad
-cd ~/.gaiad/config/
+cd .gaiad/config/
 rm genesis.json
 wget https://raw.githubusercontent.com/cosmos/launch/master/genesis.json
 cd

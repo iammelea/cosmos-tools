@@ -1,4 +1,4 @@
-#This script Install Cosmos + create systemd service and run and sync CosmosHub 3, by Víctor from melea "Genesis Cosmos Validator"
+#This script Install Cosmos + create systemd service and run and sync CosmosHub 3.
 #Firewal need open 26656 for p2p before run
 
 1.-- $ wget https://raw.githubusercontent.com/iammelea/cosmos-tools/master/cosmos123/cosmos123.sh

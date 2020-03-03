@@ -1,5 +1,5 @@
 #!/bin/bash
-# Install Go+13 + Cosmos + create systemd service and run by melea "Genesis Cosmos Validator"
+# Install Go+13 + Cosmos and run and sync "Cosmos Hub 3" by Víctor from melea "Genesis Cosmos Validator"
 
 USER=$(whoami)
 sudo apt-get update

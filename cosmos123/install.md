@@ -3,7 +3,7 @@
 
 $ wget https://raw.githubusercontent.com/iammelea/cosmos-tools/master/cosmos123/cosmos123.sh
 
-$ chmod +x 
+$ chmod +x ./cosmos123.sh
 
 $ ./cosmos123.sh
 

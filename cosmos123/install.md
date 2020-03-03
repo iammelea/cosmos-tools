@@ -1,4 +1,5 @@
 #This script Install Goland + Cosmos + create systemd service and run and sync CosmosHub 3
+
 #Firewal need 26656 for p2p
 
 1.-- $ wget https://raw.githubusercontent.com/iammelea/cosmos-tools/master/cosmos123/cosmos123.sh

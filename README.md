@@ -27,6 +27,11 @@ Bash script → Install Go+13 + Cosmos, run and sync.
 
 Bash script → Install Cosmos, run and sync Hub 3
 
+# Cosmos 1_3
+
+Bash script → Install Cosmos + create systemd service, run and sync Hub 3
+
+*cheers*
 
 
 

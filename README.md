@@ -23,3 +23,10 @@ Bash script → Install Go+13 + Cosmos, run and sync.
 
 *cheers*
 
+# Cosmos1
+
+Bash script → Install Cosmos, run and sync Hub 3
+
+
+
+

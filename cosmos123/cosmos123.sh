@@ -18,8 +18,8 @@ gaiad init Node-Name-here --chain-id cosmoshub-3
 sleep 3
 gaiad version --long
 sleep 3
-sudo chmod -R 777 .gaiad
-cd .gaiad/config/
+sudo chmod -R 777 /home/$USER/.gaiad
+cd /home/$USER/.gaiad/config/
 rm genesis.json
 wget https://raw.githubusercontent.com/cosmos/launch/master/genesis.json
 cd

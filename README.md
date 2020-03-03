@@ -17,3 +17,9 @@ Bash script → Install Go+13 + Cosmos + create systemd service and run
 
 *cheers*
 
+# Cosmos12
+
+Bash script → Install Go+13 + Cosmos, run and sync.
+
+*cheers*
+

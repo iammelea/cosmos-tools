@@ -9,19 +9,16 @@ Bash script for monitor sync status and peers of the node, START in case the nod
 Check install.md for instruccions.
 Check telegram_bot_token_chatID.md for steps to create telegram bot an get token and chat ID.
 
-*Cheers*
 
 
 # Cosmos123
 Bash script → Install Go+13 + Cosmos + create systemd service, run and sync Hub 3
 
-*cheers*
 
 # Cosmos12
 
 Bash script → Install Go+13 + Cosmos, run and sync Hub 3
 
-*cheers*
 
 # Cosmos1
 

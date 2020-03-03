@@ -1,4 +1,4 @@
-#This script Install Goland + Cosmos run and sync CosmosHub 3
+#This script Install Goland + Cosmos, run and sync CosmosHub 3
 
 #Firewal need open 26656 for p2p before run
 

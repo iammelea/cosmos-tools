@@ -1,7 +1,7 @@
 #This script Install Cosmos + create systemd service and run and sync CosmosHub 3.
 #Firewal need open 26656 for p2p before run
 
-1.-- $ wget https://raw.githubusercontent.com/iammelea/cosmos-tools/master/cosmos123/cosmos123.sh
+1.-- $ wget https://raw.githubusercontent.com/iammelea/cosmos-tools/master/cosmos1_3/cosmos1_3.sh
 
 2.-- $ chmod +x ./cosmos123.sh
 

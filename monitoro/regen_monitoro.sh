@@ -1,5 +1,5 @@
 # bash script Cosmos Monitor with telegram msg.→ what do? =  send telegram msg with status + peers then check if the node is not running restart + msg telegram 
-#EDIT where: 26657 for your RPC port if it is a different one. + <YOUR_TELEGRAM_TOKEN> + <YOUR_CHAT_ID> + <WRITE-NODE-NAME-HERE>
+#EDIT where: 26657 for your RPC port if it is a different one. + <YOUR_TELEGRAM_TOKEN> + <YOUR_CHAT_ID> + <WRITE-NODE-NAME-HERE> + <sudo systemctl restart ???>
 while [ "true" ]
     do
         token="<YOUR_TELEGRAM_TOKEN>"
@@ -16,7 +16,7 @@ while [ "true" ]
             crash_msg="☢️Humm, 🌍 🌱   Regen V is Not running☢️. Restarting now‼️ . . 🚀"
             echo $crash_msg
             curl -s "${tg_api}" --data-urlencode "text=${crash_msg}"
-            rst=`sudo systemctl restart gaiad`
+            rst=`sudo systemctl restart regen`
             echo $rst  &
         fi
             sleep 1800

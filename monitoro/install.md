@@ -41,12 +41,11 @@ $ vi monitoro.sh
 #Tip: can edit the node name and add you prefers emoticonos too.
   
 
-
-
-
 $ screen -S monitoro
 
 #Need run like sudo if used "sudo systemctl" for manage the restart of the node, in case other assistant no need sudo.
+
+
 $ sudo ./monitoro.sh
 
 

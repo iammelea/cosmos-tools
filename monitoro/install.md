@@ -4,6 +4,10 @@
 
 #What do? 1 status node, 2 check if node is not runing then start in case need, 3 send telegram msg.
 
+#How to get chat ID and telegram bot?→ https://github.com/iammelea/cosmos-tools/blob/master/monitoro/Telegram_bot_token_chatID
+
+
+
 # Install
 
 $ sudo apt update && sudo apt upgrade -y
@@ -15,39 +19,37 @@ $ git clone https://github.com/iammelea/cosmos-tools.git
 $ cd cosmos-tools/monitoro
 
 #chose the name of the chain and give permissions to run.
-#https://github.com/iammelea/cosmos-tools/tree/master/monitoro
 
-$ chmod +x 13007_monit.sh
+
+$ chmod +x monitoro.sh
 
 Or
 
-$ chmod +x iris_monit.sh
+$ chmod +x regen_monitoro.sh
 
 
-#open and add your telegram data
+#Open and edit your info inside the file
 
-$ vi xrn_monit.sh
+$ vi monitoro.sh
 
-#Or example
+#WHAT Info?
+#<26657> for the RPC port of the node in case is other.  + 
+#<WRITE-NODE-NAME-HERE>
+#<YOUR_TELEGRAM_TOKEN>
+#<YOUR_CHAT_ID>
+#sudo systemctl restart <PROCESS NAME>
+#Tip: can edit the node name and add you prefers emoticonos too.
+  
 
-$ vi iris_monit.sh
 
-#Edit
 
-#token="<YOUR_TELEGRAM_TOKEN>"
-#chat_id="<YOUR_CHAT_ID>"
-
-#Tip: can edit the node name where Regen / Iris / 13007 / and more
-
-https://github.com/iammelea/cosmos-tools/blob/master/monitoro/Telegram_bot_token_chatID
 
 $ screen -S monitoro
 
-$ ./iris_monit.sh
+#Need run like sudo if used "sudo systemctl" for manage the restart of the node, in case other assistant no need sudo.
+$ sudo ./monitoro.sh
 
-#Or for cosmos testnet, remember chose the same you add your telegram data
 
-$ ./13007-monit.sh
 
 #setup with systemd for keep running after system restart and tuning under your convenience.
 

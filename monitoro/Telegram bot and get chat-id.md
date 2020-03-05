@@ -1,6 +1,6 @@
 # Create a telegram Bot and obtain his Token and Chat-id.
 
-[check this old guide that still works](https://steemit.com/telegrambot/@melea/telegram-bot)
+[check this old guide with pics that still works](https://steemit.com/telegrambot/@melea/telegram-bot)
 
 #or read here the steps here
 

@@ -8,12 +8,12 @@ while [ "true" ]
         #Change where 26657 for your RPC port if it is a different one.
         status=`curl 127.0.0.1:26657/status | grep -E catching_up`
         peers=`curl  127.0.0.1:26657/net_info | grep -E n_peers`
-                    status_msg="🌍 🌱   Regen V:  🔖    ${peers} & ${status} ⛏⚙️"
+                    status_msg="🌍 🌱  Regen V:  🔖    ${peers} & ${status} ⛏⚙️"
             echo "${status_msg}"
             curl -s "${tg_api}" --data-urlencode "text=${status_msg}" &
         if ! curl http://localhost:26657/status > /dev/null
         then
-            crash_msg="☢️Humm, 🌍 🌱   Regen V is Not running☢️. Restarting now‼️ . . 🚀"
+            crash_msg="☢️Humm, 🌍 🌱  Regen V is Not running☢️. Restarting now‼️ . . 🚀"
             echo $crash_msg
             curl -s "${tg_api}" --data-urlencode "text=${crash_msg}"
             rst=`sudo systemctl restart regen`

@@ -6,7 +6,7 @@ Tools for nodes based on Cosmos SDK.
 
 
 <p align="center">
-  <img width="460" height="460" src="https://meleatrust.com/wp-content/uploads/2020/03/monitorologo.png">
+  <img width="460" height="460" src="https://meleatrust.com/wp-content/uploads/2020/03/g5738.png">
 </p>
 
 Bash script for Cosmos Monitor with telegram msg.→ what do? =  send telegram msg with status + peers then check if the node is not running restart + msg telegram  

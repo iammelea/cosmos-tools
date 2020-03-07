@@ -1,6 +1,12 @@
+<p align="center">
+  <img width="460" height="460" src="https://meleatrust.com/wp-content/uploads/2020/03/g5738.png">
+</p>
+
+
+
 
 Symple but practical bash script where telegram bot send msg with: sync status and peers for the Cosmos nodes you need.
-#if not running, start the node and send msg about that action too. Edit times under convenience. 300 is =5 minutes.
+#if not running, start the node and send msg about that action too. 
 
 What do? 1 status node, 2 check if node is not runing then start in case need, 3 send telegram msg.
 
@@ -42,7 +48,9 @@ WHAT Info?
 <YOUR_CHAT_ID>
 
 sudo systemctl restart <PROCESS NAME>
-  
+
+Edit times under convenience. 300 is =5 minutes.
+
 Tip: can edit the node name and add you prefers emoticonos too.
   
 

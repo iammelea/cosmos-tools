@@ -7,7 +7,7 @@ while [ "true" ]
         tg_api="https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}"
         status=`curl http://localhost:26657/status | grep -E catching_up`
         peers=`curl  http://localhost:26657/net_info | grep -E n_peers`
-                    status_msg="⚛️ Cosmos S-A:  🔖    ${peers} & ${status} ⛏⚙️"
+        status_msg="⚛️ Cosmos S-A:  🔖    ${peers} & ${status} ⛏⚙️"
             echo "${status_msg}"
             curl -s "${tg_api}" --data-urlencode "text=${status_msg}" &
         if ! curl http://localhost:26657/status > /dev/null

@@ -6,7 +6,7 @@
 
 
 Symple but practical bash script where telegram bot send msg with: sync status and peers for the Cosmos nodes you need.
-#if not running, start the node and send msg about that action too. 
+if the node is not running, restart the node and send msg about that action too. 
 
 What do? 1 status node, 2 check if node is not runing then start in case need, 3 send telegram msg.
 

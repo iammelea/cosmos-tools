@@ -10,7 +10,12 @@ if the node is not running, restart the node and send msg about that action too.
 
 What do? 1 status node, 2 check if node is not runing then start in case need, 3 send telegram msg.
 
-How to get chat ID and telegram bot?→ https://github.com/iammelea/cosmos-tools/blob/master/monitoro/Telegram_bot_token_chatID
+<p align="center">
+  <img width="300" height="600" src="https://meleatrust.com/wp-content/uploads/2020/03/photo_2020-03-07_20-40-20.jpg">
+</p>
+
+How to get chat ID and telegram bot guide?
+https://github.com/iammelea/cosmos-tools/blob/master/monitoro/Telegram_bot_token_chatID
 
 
 

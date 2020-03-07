@@ -4,7 +4,7 @@ Tools for nodes based on Cosmos SDK.
 
 # monitoro 
 
-Bash script bash script Cosmos Monitor with telegram msg.→ what do? =  send telegram msg with status + peers then check if the node is not running restart + msg telegram  
+Bash script for Cosmos Monitor with telegram msg.→ what do? =  send telegram msg with status + peers then check if the node is not running restart + msg telegram  
 
 Check install.md for instruccions.
 Check telegram_bot_token_chatID.md for steps to create telegram bot an get token and chat ID.

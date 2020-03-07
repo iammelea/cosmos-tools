@@ -15,7 +15,7 @@ while [ "true" ]
             crash_msg="☢️Hum, ⚛️ Cosmos S-A is Not running☢️. Restarting now‼️ . . 🚀"
             echo $crash_msg
             curl -s "${tg_api}" --data-urlencode "text=${crash_msg}"
-            rst=`sudo systemctl restart iris`
+            rst=`sudo systemctl restart gaiad`
             echo $rst  &
         fi
             sleep 1800

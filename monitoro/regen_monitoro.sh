@@ -13,7 +13,7 @@ while [ "true" ]
             curl -s "${tg_api}" --data-urlencode "text=${status_msg}" &
         if ! curl http://localhost:26657/status > /dev/null
         then
-            crash_msg="☢️Hum, 🌍🌱  Regen V is Not running☢️. Restarting now‼️ . . 🚀"
+            crash_msg="☢️Hum, 🌍🌱 Regen V is Not running☢️. Restarting now‼️ . . 🚀"
             echo $crash_msg
             curl -s "${tg_api}" --data-urlencode "text=${crash_msg}"
             rst=`sudo systemctl restart regen`

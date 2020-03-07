@@ -4,6 +4,8 @@ Tools for nodes based on Cosmos SDK.
 
 # monitoro 
 
+![image](https://meleatrust.com/wp-content/uploads/2020/03/monitorologo.png)
+
 Bash script for Cosmos Monitor with telegram msg.→ what do? =  send telegram msg with status + peers then check if the node is not running restart + msg telegram  
 
 Check install.md for instruccions.

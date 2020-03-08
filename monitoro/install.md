@@ -37,9 +37,13 @@ How to install MoniTØRØ
 
 Update and download the repo from Github
 
+
 $ sudo apt update && sudo apt upgrade -y
+
 $ sudo apt install screen curl expect -y
+
 $ git clone https://github.com/iammelea/cosmos-tools.git
+
 $ cd cosmos-tools/monitoro
 
 
@@ -52,6 +56,7 @@ Open the base template or one of the existing ones and customize it with your da
 
 
 $ chmod +x monitoro.sh
+
 $ vi monitoro.sh
 
 Open and edit your info inside the file
@@ -72,9 +77,12 @@ The 5 parts you should pay attention to customize your MoniTØRØ
 
 Need run like sudo if used " sudo systemctl" for managing the restart of the node, in case of other assistant no need sudo.
 
+
 $ screen -S monitoro
 
+
 $ sudo ./monitoro.sh
+
 
 My personal recommendation is not to use screen after having everything configured and working, it is best to make it work with systemd as a process that starts when the server starts or restarts. 
 

@@ -94,7 +94,7 @@ NOTE 3: if use it in the Validators you must take into account that if you make 
 
 .end
 
-I hope you find it useful and save you time.
+I hope you find it useful and save you some time.
 
 # cheers
 

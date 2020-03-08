@@ -86,7 +86,7 @@ $ sudo ./monitoro.sh
 
 My personal recommendation is not to use screen after having everything configured and working, it is best to make it work with systemd as a process that starts when the server starts or restarts. 
 
-NOTE: At the first moment of starting it, you will receive the first message via telegram indicating the peers and the state of the synchronization of the node. if it detects that the node is not working it starts it, so you must be sure that the RPC port in monitoro.sh and in the Cosmos file .gaiag/config/config.toml is the same RPCport.
+NOTE: At the first moment of starting it, you will receive the first message via telegram indicating the peers and the state of the synchronization of the node. if it detects that the node is not working it starts it, so you must be sure that the RPC port in monitoro.sh and in the Cosmos file .gaiag/config/config.toml is the same RPC port.
 
 NOTE 2: While the process is running, it will be repeated every few seconds as it is configured in monitoro.sh
 

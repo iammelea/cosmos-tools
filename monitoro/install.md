@@ -68,11 +68,17 @@ WHAT Info?
 
 
 <26657> for the RPC port of the node in the case it is other.
+
 <YOUR_TELEGRAM_TOKEN>
+
 <YOUR_CHAT_ID>
+
 Edit times under convenience. sleep 300 = 300 seg aKa 5 minutes
+
 Edit the node name and add you prefer emoticons too.
+
 Edit cmd to start restart the node
+
 
 The 6 parts you should pay attention to customize your MoniTØRØ
 

@@ -21,7 +21,7 @@ Since melea Validator, we are using this tool to monitor all our nodes and is qu
 
 ---
 
-For the next steps, you need to have your Telegram Bot configured, have your Telegram token and chat in your possession.
+For the next steps, you need to have your Telegram Bot configured, Telegram token and chat-ID.
 
 <p align="center">
   <img width="300" height="600" src="https://meleatrust.com/wp-content/uploads/2020/03/photo_2020-03-07_20-40-20.jpg">
@@ -84,7 +84,8 @@ NOTE 3: if use it in the Validators you must take into account that if you make 
 .end
 
 I hope you find it useful and save you time.
-cheers
+
+# cheers
 
 
 

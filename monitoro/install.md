@@ -72,10 +72,11 @@ WHAT Info?
 <YOUR_CHAT_ID>
 Edit times under convenience. sleep 300 = 300 seg aKa 5 minutes
 Edit the node name and add you prefer emoticons too.
+Edit cmd to start restart the node
 
-The 5 parts you should pay attention to customize your MoniTØRØ
+The 6 parts you should pay attention to customize your MoniTØRØ
 
-![img](https://meleatrust.com/wp-content/uploads/2020/03/g5991.png)
+![img](https://meleatrust.com/wp-content/uploads/2020/03/g6014.png)
 
 Need run like sudo if used " sudo systemctl" for managing the restart of the node, in case of other assistant no need sudo.
 

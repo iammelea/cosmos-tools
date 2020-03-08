@@ -11,8 +11,12 @@ Tools for nodes based on Cosmos SDK.
 
 Bash script for Cosmos Monitor with telegram msg.→ what do? =  send telegram msg with status + peers then check if the node is not running restart + msg telegram  
 
-Check [install.md](https://github.com/iammelea/cosmos-tools/blob/master/monitoro/install.md) for instruccions.
-Check [telegram_bot_token_chatID.md](https://github.com/iammelea/cosmos-tools/blob/master/monitoro/Telegram%20bot%20chat-ID.md) for steps to create telegram bot an get token and chat ID.
+Check 
+[install.md](https://github.com/iammelea/cosmos-tools/blob/master/monitoro/install.md) 
+
+[telegram_bot_token_chatID.md](https://github.com/iammelea/cosmos-tools/blob/master/monitoro/Telegram%20bot%20chat-ID.md) 
+
+for steps to create telegram bot an get token and chat ID.
 
 -----------------------------------------------------------------------------------------------------------------------------
 

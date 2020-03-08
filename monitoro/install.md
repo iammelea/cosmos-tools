@@ -38,13 +38,13 @@ How to install MoniTØRØ
 Update and download the repo from Github
 
 
-$ sudo apt update && sudo apt upgrade -y
+`$ sudo apt update && sudo apt upgrade -y
 
 $ sudo apt install screen curl expect -y
 
 $ git clone https://github.com/iammelea/cosmos-tools.git
 
-$ cd cosmos-tools/monitoro
+$ cd cosmos-tools/monitoro`
 
 
 The [repository](https://github.com/iammelea/cosmos-tools/tree/master/monitoro) currently has templates for the most popular blockchain based on Cosmos and that also I am working on. 🌝

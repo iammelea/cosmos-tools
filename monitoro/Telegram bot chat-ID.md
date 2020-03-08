@@ -39,12 +39,14 @@ SEARCH YOUR BOT AND OPEN CHAT WITH THE BOT
 Important said hi or others words and leave telegram open.
 
 Open terminal
+```
 
 $ sudo apt install python-pip
 
 $ sudo pip install python-telegram-handler
 
 $ sudo python -m telegram_handler <your token here>
+```
 =Telegram CHAT ID
 
 CONGRATULATIONS

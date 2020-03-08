@@ -18,7 +18,7 @@ Check
 [telegram_bot_token_chatID.md](https://github.com/iammelea/cosmos-tools/blob/master/monitoro/Telegram%20bot%20chat-ID.md) 
 
 for steps to create telegram bot an get token and chat ID.
-.end
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 

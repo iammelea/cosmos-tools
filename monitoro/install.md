@@ -71,8 +71,9 @@ The 5 parts you should pay attention to customize your MoniTØRØ
 ![img](https://meleatrust.com/wp-content/uploads/2020/03/g5991.png)
 
 Need run like sudo if used " sudo systemctl" for managing the restart of the node, in case of other assistant no need sudo.
-screen -S monitoro
-#Need run like sudo if used "sudo systemctl" for manage the restart of the node, in case other assistant no need sudo.
+
+$ screen -S monitoro
+
 $ sudo ./monitoro.sh
 
 My personal recommendation is not to use screen after having everything configured and working, it is best to make it work with systemd as a process that starts when the server starts or restarts. 

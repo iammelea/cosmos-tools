@@ -36,7 +36,7 @@ Here is done you have created one Telegram bot. take the token file and bot name
 
 SEARCH YOUR BOT AND OPEN CHAT WITH THE BOT
 
-Important said hi or others words and leave telegram open.
+Important said hi or others words , is important start chat and send the msg to the telegram bot to can get the good chat-id and leave telegram chat open.
 
 Open terminal
 ```

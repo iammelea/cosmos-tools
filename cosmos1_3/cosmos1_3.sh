@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt install build-essential
 git clone https://github.com/cosmos/gaia.git
 cd gaia
-git checkout v2.0.3
+git checkout v2.0.8
 make install
 gaiad init Node-Name-here --chain-id cosmoshub-3
 sleep 3

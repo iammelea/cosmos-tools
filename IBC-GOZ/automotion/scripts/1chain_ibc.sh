@@ -59,7 +59,7 @@ echo "The 12 words are the only way to recover your account if you ever forget y
 sleep 2
 
 #Build cosmos chain 3,2.1
-gaiad init --chain-id $CHAINID $MONIKER --home $DIR
+gaiad init --chain-id $CHAINID $MONIKER --home ~/$DIR
 sed -i 's#tcp://127.0.0.1:26657#tcp://0.0.0.0:'"${RPC}"'#g' ~/$DIR/config/config.toml
 sed -i 's#tcp://0.0.0.0:26656#tcp://0.0.0.0:'"${P2P}"'#g' ~/$DIR/config/config.toml
 sed -i "s/\"stake\"/\"$DENOM\"/g" ~/$DIR/config/genesis.json
@@ -68,7 +68,7 @@ sed -i 's/pruning = "syncable"/pruning = "nothing"/g' ~/$DIR/config/app.toml
 echo "gaiacli keys add validator, enter password"
 sleep 3
 
-gaiacli keys add validator --home $DIR
+gaiacli keys add validator --home ~/$DIR
 
 echo "Important!!!"
 sleep 2
@@ -84,7 +84,7 @@ sleep 2
 #genesis file
 
 echo "gaiad adding genesis account Validator"
-echo "${password}" | echo "${password}" | gaiad add-genesis-account $(gaiacli keys show validator -a) 100000000000000$DENOM,100000000000000$DENOM2 --home $DIR
+echo "${password}" | echo "${password}" | gaiad add-genesis-account $(gaiacli keys show validator -a) 100000000000000$DENOM,100000000000000$DENOM2 --home ~/$DIR
 echo "done!"
 sleep 3
 
@@ -94,18 +94,18 @@ echo "done!"
 sleep 3
 
 echo "gaiad create gentx validator, be ready to confirm password 3 times"
-gaiad gentx --name validator --amount 100000000000$DENOM --home $DIR
+gaiad gentx --name validator --amount 100000000000$DENOM --home ~/$DIR
 echo "done!"
 sleep 3
 
 echo "gaiad collect gentx"
-gaiad collect-gentxs --home $DIR
+gaiad collect-gentxs --home ~/$DIR
 echo "done!"
 
 #pm2 start script
 cat <<EOF > $CHAINID.sh
 #!/bin/bash
-gaiad start --home $DIR
+gaiad start --home ~/$DIR
 EOF
 chmod +x $CHAINID.sh
 pm2 start $CHAINID.sh

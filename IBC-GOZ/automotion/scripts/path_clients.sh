@@ -18,9 +18,17 @@ echo " go go go"
 rly lite init -f $CHAIN1
 rly l i -f $CHAIN2
 
+#check balances
+rly q bal $CHAIN1
+rly q bal $CHAIN2
+
 #ask for coins via faucet
 rly testnets request $CHAIN1 faucet 
 rly tst req $CHAIN2 faucet -u http://127.0.0.1:8001
+
+#check balances
+rly q bal $CHAIN1
+rly q bal $CHAIN2
 
 rly pth gen $CHAIN1 transfer $CHAIN2 transfer $PATHN
 

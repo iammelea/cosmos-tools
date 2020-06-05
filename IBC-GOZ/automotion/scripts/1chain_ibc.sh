@@ -30,7 +30,7 @@ echo "Enter P2P port example 36656:"
 read P2P
 echo "Enter faucet port  example 8000:"
 read FCT
-echo "Enter dir name for gaia 2 chain example .ibcgaia:"
+echo "Enter dir name for gaia chain example .ibcgaia:"
 read DIR
 
 

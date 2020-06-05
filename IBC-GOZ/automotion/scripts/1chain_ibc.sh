@@ -16,7 +16,7 @@ echo "Enter keyring passphrase <password must be at least 8 characters, only let
 read password
 echo "Enter Token name example: abtc ok, ABTC NO ok"
 read DENOM
-echo "Enter 2 Token name example: abtg ok, ABTG NO ok"
+echo "Enter 2 Token name example: aeth ok, AETH NO ok"
 read DENOM2
 echo "Enter chain-id example: melea-11"
 read CHAINID

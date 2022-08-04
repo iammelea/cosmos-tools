@@ -13,8 +13,8 @@
             echo "GO aka Goland is not installed, preparing for install GO and setup the GOPATH"
             sudo apt-get update
             echo "Installing go now, visit https://golang.org/ for more info"
-            wget https://go.dev/dl/go1.18.3.linux-amd64.tar.gz 
-            sudo tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz
+            wget https://go.dev/dl/go1.19.linux-amd64.tar.gz 
+            sudo tar -C /usr/local -xzf go1.19.linux-amd64.tar.gz
             
             go version
         else
